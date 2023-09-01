@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 from datetime import date
+from typing import List, Optional
 
 
 class User(BaseModel):
@@ -14,8 +15,8 @@ class User(BaseModel):
 
 class Question(BaseModel):
     question_body: str
-    possible_answers: list[str]
+    possible_answers: List[str]
     correct_answer_index: int
 
 class Quiz(BaseModel):
-    questions: list[Question]
+    questions: List[Question]

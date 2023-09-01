@@ -4,7 +4,7 @@ Module for FastAPI creation
 from loguru import logger
 import uvicorn
 from fastapi import FastAPI
-from schemas.fastapi_schemas import User, Quiz
+from schemas.fastapi_schemas import User, Quiz, Question
 
 
 app = FastAPI(title="genius_guru_backend")
@@ -26,12 +26,19 @@ async def sign_up(user_data: User):
     logger.info(user_data)
 
 
-@app.get("/get_quiz", response_class=Quiz)
+@app.get("/get_quiz", response_model=Quiz)
 async def get_quiz():
     """
     Get end-point for quiz generation
     """
-    return Quiz()
+    question = Question(question_body="What is the color of the sky",
+                        possible_answers=["blue", "red"],
+                        correct_answer_index=0
+    )
+
+    quiz = Quiz(questions=[question])
+    
+    return quiz
 
 
 if __name__ == "__main__":
