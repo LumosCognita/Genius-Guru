@@ -1,0 +1,422 @@
+{
+    "questions": [
+        {
+            "question": "What is Machine Learning?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "A branch of astronomy"
+                },
+                {
+                    "id": 2,
+                    "label": "A branch of mathematics"
+                },
+                {
+                    "id": 3,
+                    "label": "A branch of artificial intelligence and computer science"
+                },
+                {
+                    "id": 4,
+                    "label": "A branch of cognitive psychology"
+                }
+            ],
+            "answer": 3
+        },
+        {
+            "question": "What methods are used in supervised learning?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "Neural networks, na�ve bayes, linear regression, logistic regression, random forest, and support vector machine (SVM)."
+                },
+                {
+                    "id": 2,
+                    "label": "A/B testing, cubing, affinity analysis, and decision tree."
+                },
+                {
+                    "id": 3,
+                    "label": "Data separation, stratified sampling, one-sided selection, and kononen networks."
+                },
+                {
+                    "id": 4,
+                    "label": "Subset selection, ridges, and lasso."
+                }
+            ],
+            "answer": 1
+        },
+        {
+            "question": "What is supervised learning?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "A study of labeled datasets to train algorithms to classify data."
+                },
+                {
+                    "id": 2,
+                    "label": "The use of machine learning algorithms to group unlabeled datasets."
+                },
+                {
+                    "id": 3,
+                    "label": "A technique that involves a mix of supervised and unsupervised learning."
+                },
+                {
+                    "id": 4,
+                    "label": "A technique that uses unlabeled data."
+                }
+            ],
+            "answer": 1
+        },
+        {
+            "question": "What is one primary use of unsupervised learning?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "Dimensionality reduction"
+                },
+                {
+                    "id": 2,
+                    "label": "Classification and Regression"
+                },
+                {
+                    "id": 3,
+                    "label": "Binary classification"
+                },
+                {
+                    "id": 4,
+                    "label": "Ensembling"
+                }
+            ],
+            "answer": 1
+        },
+        {
+            "question": "How does unsupervised machine learning work?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "By prescribing a set of rules for accomplishing a goal."
+                },
+                {
+                    "id": 2,
+                    "label": "By sifting through unlabeled data to look for patterns that can be used to group data points into subsets."
+                },
+                {
+                    "id": 3,
+                    "label": "By data scientists feeding a small amount of labeled training data to an algorithm."
+                },
+                {
+                    "id": 4,
+                    "label": "By training the algorithm with both labeled inputs and desired outputs."
+                }
+            ],
+            "answer": 2
+        },
+        {
+            "question": "What is the role of a semi-supervised learning?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "To solve the problem of not having enough labeled data for a supervised learning algorithm."
+                },
+                {
+                    "id": 2,
+                    "label": "To solve the problem of not having any labeled data for a supervised learning algorithm."
+                },
+                {
+                    "id": 3,
+                    "label": "To classify spam in a separate folder from the inbox."
+                },
+                {
+                    "id": 4,
+                    "label": "To identify commonalities in the data and react based on the presence or absence of such commonalities in each new piece of data."
+                }
+            ],
+            "answer": 1
+        },
+        {
+            "question": "An algorithm that improves the accuracy of its outputs or predictions over time is said to have what?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "Failed to perform the task."
+                },
+                {
+                    "id": 2,
+                    "label": "Learned to perform the task."
+                },
+                {
+                    "id": 3,
+                    "label": "Overfit the task."
+                },
+                {
+                    "id": 4,
+                    "label": "Underfit the task."
+                }
+            ],
+            "answer": 2
+        },
+        {
+            "question": "What is the main purpose of reinforcement learning?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "To solve a problem with a clear goal and a set of rules."
+                },
+                {
+                    "id": 2,
+                    "label": "To predict a future event."
+                },
+                {
+                    "id": 3,
+                    "label": "To classify data."
+                },
+                {
+                    "id": 4,
+                    "label": "To group similar data together."
+                }
+            ],
+            "answer": 1
+        },
+        {
+            "question": "For what kind of problems is the term machine learning used?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "Problems for which development of algorithms by human programmers would be cost-prohibitive."
+                },
+                {
+                    "id": 2,
+                    "label": "Problems that are easily solvable by conventional programming methods."
+                },
+                {
+                    "id": 3,
+                    "label": "Theoretical problems in computer science."
+                },
+                {
+                    "id": 4,
+                    "label": "Problems that do not have clear solutions."
+                }
+            ],
+            "answer": 1
+        },
+        {
+            "question": "In supervised machine learning, what is the optimal function?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "A function that allows the algorithm to correctly determine the output for inputs that were a part of the training data."
+                },
+                {
+                    "id": 2,
+                    "label": "A function that allows the algorithm to correctly determine the output for inputs that were not a part of the training data."
+                },
+                {
+                    "id": 3,
+                    "label": "A function that allows the algorithm to incorrectly determine the output for inputs that were a part of the training data."
+                },
+                {
+                    "id": 4,
+                    "label": "A function that allows the algorithm to incorrectly determine the output for inputs that were not a part of the training data."
+                }
+            ],
+            "answer": 2
+        },
+        {
+            "question": "What tasks does the majority of deep learning, including neural networks, perform in Unsupervised Learning?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "Binary Classification"
+                },
+                {
+                    "id": 2,
+                    "label": "Multi-class Classification"
+                },
+                {
+                    "id": 3,
+                    "label": "Anomaly Detection"
+                },
+                {
+                    "id": 4,
+                    "label": "Spam Classification"
+                }
+            ],
+            "answer": 3
+        },
+        {
+            "question": "What is the primary purpose of Semi-supervised Learning?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "To use a small amount of labeled data to guide a larger amount of unlabeled data."
+                },
+                {
+                    "id": 2,
+                    "label": "To eliminate the need for creating labeled training data."
+                },
+                {
+                    "id": 3,
+                    "label": "To reduce the computational complexity of the learning algorithm."
+                },
+                {
+                    "id": 4,
+                    "label": "To provide better generalization performance than completely unsupervised learning."
+                }
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Which Algorithm is used in Semi-supervised Learning?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "Regression"
+                },
+                {
+                    "id": 2,
+                    "label": "Clustering"
+                },
+                {
+                    "id": 3,
+                    "label": "Active Learning"
+                },
+                {
+                    "id": 4,
+                    "label": "Na�ve Bayes"
+                }
+            ],
+            "answer": 3
+        },
+        {
+            "question": "What tasks can Reinforcement Learning be used for?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "Teaching a machine to complete a multi-step process for which there are clearly defined rules."
+                },
+                {
+                    "id": 2,
+                    "label": "Creating a recommendation system."
+                },
+                {
+                    "id": 3,
+                    "label": "Teaching a machine to complete a single step task with time delay."
+                },
+                {
+                    "id": 4,
+                    "label": "Teaching a machine to respond to user's input in real-time."
+                }
+            ],
+            "answer": 1
+        },
+        {
+            "question": "What is the optimal way for supervised learning to solve a given problem?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "Optimize performance on a subset of the training set, or via cross-validation."
+                },
+                {
+                    "id": 2,
+                    "label": "Determine the type of training examples."
+                },
+                {
+                    "id": 3,
+                    "label": "Gather a training set."
+                },
+                {
+                    "id": 4,
+                    "label": "Determine the input feature representation of the learned function."
+                }
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Which field is Unsupervised Learning particularly useful?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "Sequential data, such as time series."
+                },
+                {
+                    "id": 2,
+                    "label": "Discovery and identification of novel patterns in large datasets."
+                },
+                {
+                    "id": 3,
+                    "label": "Data with many irrelevant features."
+                },
+                {
+                    "id": 4,
+                    "label": "Density estimation in statistics."
+                }
+            ],
+            "answer": 4
+        },
+        {
+            "question": "What is the goal of reinforcement learning?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "To maximize some notion of cumulative reward."
+                },
+                {
+                    "id": 2,
+                    "label": "To maximize the reward in a single trial."
+                },
+                {
+                    "id": 3,
+                    "label": "To minimize total energy consumption."
+                },
+                {
+                    "id": 4,
+                    "label": "To minimize the total number of trials."
+                }
+            ],
+            "answer": 1
+        },
+        {
+            "question": "What learning methods are used in unsupervised machine learning?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "Clustering, Association, Dimensionality Reduction."
+                },
+                {
+                    "id": 2,
+                    "label": "Clustering, Principal component analysis, singular value decomposition."
+                },
+                {
+                    "id": 3,
+                    "label": "Neural networks, K-means."
+                },
+                {
+                    "id": 4,
+                    "label": "Autoencoders, Neural Networks."
+                }
+            ],
+            "answer": 1
+        },
+        {
+            "question": "What do Semi-Supervised Learning algorithms do?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "They learn a function that can be used to predict output associated with new inputs."
+                },
+                {
+                    "id": 2,
+                    "label": "They predict output without learning."
+                },
+                {
+                    "id": 3,
+                    "label": "They study labeled datasets to train algorithms to classify data or predict outcomes accurately."
+                },
+                {
+                    "id": 4,
+                    "label": "They learn a function that can be used to predict the input associated with new outputs."
+                }
+            ],
+            "answer": 1
+        }
+    ]
+}

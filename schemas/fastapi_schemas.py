@@ -4,19 +4,38 @@ from typing import List, Optional
 
 
 class User(BaseModel):
+    username: str
     email: str
     name: str
-    date_of_birth: date
+    date_of_birth: str
     gender: str
     location: str
     major: str
-    graduation_date: date
+    graduation_date: str
     years_of_experience: int
 
+    def to_dict(self):
+        class_dict = {
+            "username": self.username,
+            "email": self.email,
+            "name": self.name,
+            "date_of_birth": self.date_of_birth,
+            "gender": self.gender,
+            "location": self.location,
+            "major": self.major,
+            "graduation_date": self.graduation_date,
+            "years_of_experience": self.years_of_experience
+        }
+        return class_dict
+
+
+class Answer(BaseModel):
+    id:  int
+    label: str
 class Question(BaseModel):
-    question_body: str
-    possible_answers: List[str]
-    correct_answer_index: int
+    question: str
+    options: List[Answer]
+    answer: int
 
 class Quiz(BaseModel):
     questions: List[Question]

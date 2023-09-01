@@ -1,0 +1,290 @@
+{
+  "questions": [
+    {
+      "question": "What does Full Stack development involve?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Developing only the front end of the web application"
+        },
+        {
+          "id": 2,
+          "label": "Developing only the back end of the web application"
+        },
+        {
+          "id": 3,
+          "label": "Developing both the front end and back end of the web application"
+        },
+        {
+          "id": 4,
+          "label": "Managing databases but not developing any part of the web application"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What is the role of a Full Stack Web Developer?",
+      "options": [
+        {
+          "id": 1,
+          "label": "They only program databases."
+        },
+        {
+          "id": 2,
+          "label": "They only program servers."
+        },
+        {
+          "id": 3,
+          "label": "They only program browsers."
+        },
+        {
+          "id": 4,
+          "label": "They are familiar with programming both client and server software."
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "question": "What is Pair Programming?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Two programmers share a single workstation and swap roles every few minutes."
+        },
+        {
+          "id": 2,
+          "label": "One programmer writes the code, while the other only watches."
+        },
+        {
+          "id": 3,
+          "label": "Two programmers work separately and combine their code at the end."
+        },
+        {
+          "id": 4,
+          "label": "One programmer writes the code, while the other tests it."
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of the Observer pattern?",
+      "options": [
+        {
+          "id": 1,
+          "label": "To define a hierarchy of objects."
+        },
+        {
+          "id": 2,
+          "label": "To deal with event handling."
+        },
+        {
+          "id": 3,
+          "label": "To define a one-to-many dependency between objects."
+        },
+        {
+          "id": 4,
+          "label": "To define a many-to-many dependency between objects."
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What does the acronym ACID stand for in Database systems?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Atomicity, Concurrency, Isolation, Durability"
+        },
+        {
+          "id": 2,
+          "label": "Atomicity, Consistency, Isolation, Durability"
+        },
+        {
+          "id": 3,
+          "label": "Atomicity, Concurrency, Immutability, Durability"
+        },
+        {
+          "id": 4,
+          "label": "Atomicity, Consistency, Immutability, Deletion"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is an Application server?",
+      "options": [
+        {
+          "id": 1,
+          "label": "A software framework that allows creation of server environments only."
+        },
+        {
+          "id": 2,
+          "label": "A software framework that allows creation of both web applications and server environments."
+        },
+        {
+          "id": 3,
+          "label": "A software framework that allows storage and management of data."
+        },
+        {
+          "id": 4,
+          "label": "A software framework that involves web scripting only."
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the difference between Server-side Scripting and Client-side Scripting?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Server-side scripting is executed on the client's machine while Client-side scripting is executed on the server."
+        },
+        {
+          "id": 2,
+          "label": "Server-side scripting is executed on the server while Client-side scripting is executed on the client's machine."
+        },
+        {
+          "id": 3,
+          "label": "Both are typically executed on the client's machine."
+        },
+        {
+          "id": 4,
+          "label": "Both are typically executed on the server."
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is RESTful API?",
+      "options": [
+        {
+          "id": 1,
+          "label": "It is a software design pattern."
+        },
+        {
+          "id": 2,
+          "label": "It is an application programming interface that uses HTTP requests to obtain and manage data."
+        },
+        {
+          "id": 3,
+          "label": "It is a type of database system."
+        },
+        {
+          "id": 4,
+          "label": "It is a web development framework."
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What are the differences between normalization and denormalization?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Normalization is used to add redundancy to execute queries and increase speed, while denormalization is used to reduce redundancy and improve consistency."
+        },
+        {
+          "id": 2,
+          "label": "Normalization is used to increase performance, while denormalization is used to increase reliability."
+        },
+        {
+          "id": 3,
+          "label": "Normalization is used to reduce data redundancy and inconsistency, while denormalization is used to add redundancy to execute queries faster."
+        },
+        {
+          "id": 4,
+          "label": "Both are used for the same purpose - to improve database performance."
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What does CORS stand for?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Cross-Origin Resource Sending"
+        },
+        {
+          "id": 2,
+          "label": "Cross-Object Request Service"
+        },
+        {
+          "id": 3,
+          "label": "Cross-Origin Reference Share"
+        },
+        {
+          "id": 4,
+          "label": "Cross-Origin Resource Sharing"
+        }
+      ],
+      "answer": 4
+    },
+    {
+      "question": "What is Dependency Injection?",
+      "options": [
+        {
+          "id": 1,
+          "label": "It is a design pattern where a container handles the injection of service components into a client object."
+        },
+        {
+          "id": 2,
+          "label": "It is a process where a container handles creation of objects."
+        },
+        {
+          "id": 3,
+          "label": "It is a programming method where an object handles instantiation of other objects."
+        },
+        {
+          "id": 4,
+          "label": "It is a design pattern where a container handles the retrieval of service components from a client object."
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What are the main types of design patterns?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Creational, Structural and Behavioral"
+        },
+        {
+          "id": 2,
+          "label": "Functional, Object-Oriented and Structural"
+        },
+        {
+          "id": 3,
+          "label": "Behavioral, Sequential and Parallel"
+        },
+        {
+          "id": 4,
+          "label": "Functional, Sequential and Parallel"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the difference between Full Stack engineer and Full Stack developer?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Full-Stack engineer has project management experience and can configure and manage computer networks and systems whereas a Full-Stack developer only programs client and server software"
+        },
+        {
+          "id": 2,
+          "label": "There is no difference both can program client and server software"
+        },
+        {
+          "id": 3,
+          "label": "Full-Stack developer has project management experience and can configure and manage computer networks and systems whereas a Full-Stack engineer only programs client and server software"
+        },
+        {
+          "id": 4,
+          "label": "Full-Stack engineer manages databases and a Full-Stack developer programs databases"
+        }
+      ],
+      "answer": 1
+    }
+  ]
+}

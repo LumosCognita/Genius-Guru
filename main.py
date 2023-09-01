@@ -5,13 +5,16 @@ from loguru import logger
 import uvicorn
 from fastapi import FastAPI
 from schemas.fastapi_schemas import User, Quiz, Question
+from database.mongodb import MongoDB
+from endpoint_modules.generate_quiz import generate_quiz_from
+from endpoint_modules.generate_career_path import generate_career_path
 
 
 app = FastAPI(title="genius_guru_backend")
+client = MongoDB()
 
-
-@app.post("/submit_quiz")
-async def submit_quiz(quiz: Quiz):
+@app.post("/generate_career_path")
+async def generate_career_path(quiz: Quiz):
     """
     Post end-point for submitting the quiz
     """
@@ -23,21 +26,17 @@ async def sign_up(user_data: User):
     """
     Post end-point for user sign up
     """
-    logger.info(user_data)
+    client.add_user(user_data)
 
 
 @app.get("/get_quiz", response_model=Quiz)
-async def get_quiz():
+async def get_quiz(user_major):
     """
     Get end-point for quiz generation
     """
-    question = Question(question_body="What is the color of the sky",
-                        possible_answers=["blue", "red"],
-                        correct_answer_index=0
-    )
 
-    quiz = Quiz(questions=[question])
-    
+    quiz = generate_quiz_from(user_major)
+
     return quiz
 
 

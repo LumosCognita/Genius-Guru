@@ -1,0 +1,138 @@
+1. What do you understand by the term, Product Management?
+The responsibility of managing a specific product inside a company is called product management. It's a crucial position at the center of an organization where you must strike a balance between what customers want and what's technically and operationally feasible while also delivering value to your business (often profit).
+
+2. Who do you think Product Managers are?
+In layman's terms, Product Managers lead a product team to develop distinctive and appealing goods that suit customers' needs and, eventually, help a firm in achieving its commercial objectives. They do this by performing user research and market analysis.
+
+3. Do you think Product Managers are important in a company?
+Yes, Product Managers are a crucial part of the firm as they are the bridge between clients and the organization. They help analyze consumer experiences to drive innovation and development. Additionally, they serve as the link between similar product concepts held by these groups.
+
+4.What are the pillars of Product Management?
+Product Discovery
+Product Planning
+Product Development
+
+5. Give a gist of the pillars of Product Management
+Product Discovery
+Initiations or concepts that are user- or customer-centered are at the heart of product discovery. Product discovery operates more effectively when there is effective Product Management.
+Product Planning
+This is related to picturing or conceiving how the final product will look. It addresses questions such as, “Which approach best addresses the uncovered opportunity? Without careful planning, even a great idea can result in a subpar product.
+Product Development
+In order to build an effective product, Product Managers combine everything accomplished during the product discovery and planning stages.
+6. Name the Top Product Management Tools that are used widely
+There are many tools that are available in the market today, but some of the most popular Product Management Tools are:
+
+Airfocus
+Productboard
+Planview
+ProductPlan
+Dragonboard
+7. What do you think are the criteria for selecting Product Management Tools?
+The parameters on which the selection is done are:
+
+Combination: Is there a way to integrate with first- and third-party platforms using the product management tool's app store or some other method to enable more features?
+
+User Interface (UI): Does the app's user interface seem clean, simple, and contemporary on different operating systems, including mobile and desktop versions?
+
+Assurance: What proportion of the price is reasonable, given the characteristics, competencies, and use situation? Is the pricing fair, unambiguous, and versatile?
+
+8. When you can't complete two vital tasks at the same time, how would you distribute your resources?
+Prioritization is really necessary for a role like Product Manager. If you are in a situation where you must prioritize between two tasks, the best possible way to deal with it would be to use the MoSCow, RICE, or Kano Methods.
+
+9. What do you understand by the term,MoSCow Method?
+It is a favored method of managing needs prioritization. MoSCoW stands for “Must, Should, Could, and Won't have. The “W in MoSCoW can also stand for “Wish in some businesses.
+
+
+10. Explain the RICE Method
+RICE is an abbreviation for Reach, Impact, Confidence, and Effort. It is a prioritization technique developed to help product managers. It helps in choosing and grading products, services, and other activities that should be included in roadmaps.
+
+11. What do you know about the Kano Method?
+The Kano model sheds light on the features of products that consumers believe to be crucial. The tool's objective is to support product specification and enhance the team's comprehension of user needs.
+
+12. What is Product Adoption?
+In contrast to product acquisition, which focuses on bringing traffic to your website, Product Adoption concentrates on converting those visitors into customers.
+
+13. How can you increase the adoption of a product?
+Increasing product adoption involves assisting more people in experiencing that “Wow momentOne must monitor, quantify, and examine user behavior while using the product to achieve this. In order to fully comprehend your users and how they interact with your app, you need to employ Product Analytics.
+
+
+14. How will you get to know if a product is well-designed?
+The practice of conceiving, developing, and refining goods as answers to certain needs in a market or solving problems for customers is referred to as Product design. Understanding our end client, or the individual for whom the product has been built, is crucial for a successful product design. You should look for different aspects and criteria which will help you distinguish between an excellent product and a bad one. For E.g. 
+
+Check if the product is genuine. 
+Products should offer distinctive experiences.
+Is the product solving problems elegantly?
+15. What do you think are the steps to redesign a product?
+Presenting the thesis for Product Redesign
+Redesign data and analysis
+Initiation
+Provisioning 
+Continue updating
+16. What do you think makes a good User-Interface?
+A good User-Interface should be easy to understand and operate. Apart from including simple and eye-catching features, you must know your audience well to develop a good UI.
+
+17. What do you think your responsibilities as a Product Manager would be?
+There are a lot of responsibilities a Product Manager bears, some of them are:
+
+Identifying and expressing user requirements.
+Research and create competitive evaluations.
+Develop the product's vision.
+Bringing shareholders together to support the product's goal.
+Emphasizing on a product's strengths and qualities.
+18. How will you explain a product development strategy to your team?
+I will keep the following points in mind, while talking about a certain product development strategy:
+
+Emerging markets and customer-friendly technology
+How it intends to produce income and achieve business objectives
+Budget crisis
+Consumer's need
+19. According to you, what is the biggest obstacle that our organization might encounter next year?
+Prior to responding to this question, make sure to do a thorough review of the company's prior successes, failures, strengths, and limitations.
+
+20. Why do you want this job?
+This question might sound like a piece of a cake, but if you don't answer it well, it can become challenging for the recruiter to hire you. To be on a safer side, it would be better to answer this question as: 
+
+“I have worked as a Product Manager for the last five years. I successfully oversaw the introduction of two new products at that time, and now I want to enhance my skill set and try new things. I admire how your business concentrates on providing goods that support the development of a more sustainable future.
+
+21. Even though Instagram wasn't profitable, Facebook paid nearly a billion dollars to acquire it. What do you suppose the cause was?
+An interesting response to this question would be: “Instagram had taken over a separate social media niche focusing on photographs, even though Facebook was already the leading social network worldwide. Influencers were starting to assemble swiftly. Facebook saw Instagram as a way to diversify its business and protect a weak spot. It ultimately turned out to be a wise decision.
+
+22. How can PLM help Product Managers? What is it?
+Product Lifecycle Management or PLM, entails overseeing a product's whole lifecycle, from the conception of an idea to its ultimate implementation. PLM's main objective is to facilitate the exchange of data, personnel, and procedures related to the lifespan of a product.
+
+23. How do you determine a product's price?
+I would decide on a  pricing approach to set a product's price to make it affordable. I would analyze my target market before looking at the pricing policies of my competitors.
+
+24. How do you measure the success of a product?
+Measuring the success of a product requires defining clear and measurable goals and tracking progress against those goals. As a product manager, I work with cross-functional teams to establish key performance indicators (KPIs) that align with the product's objectives. KPIs may include metrics such as revenue growth, customer acquisition and retention, user engagement, and satisfaction. 
+
+I regularly review these metrics and use them to make informed product decisions and identify areas for improvement. 
+
+Additionally, I gather qualitative feedback from customers and other stakeholders to understand their perceptions and identify areas where the product can be improved.
+
+25. How would you approach your customers?
+User interaction becomes crucial for idea generation and feedback collection. I would use one-on-one or group interviews to gain customer insights. The customer support team receives input directly from users and can assist in bridging the communication gap between us and them.
+
+26. How do you go about reducing the amount of friendly fraud on our eCommerce site?
+If we keep a few important things in mind, such as using a credit card for verification, we can reduce friendly fraud.
+Maintain PCI compliance
+Get fraud prevention tools
+Decide on the top eCommerce program (and keep it up-to-date)
+27. What do you mean by the term “PCI Compliance?
+Credit card companies are obligated to follow PCI DSS  to preserve the integrity of credit card purchases. The guidelines, both technical and operational, that companies adhere to safeguard and protect credit card information are known as PCI. It is provided by cardholders and transferred during card processing transactions.
+
+28. How do you prioritize features in your product roadmap?
+Prioritizing features in a product roadmap requires a deep understanding of the customer's needs and how the product can address those needs. As a product manager, I first conduct research on the market and competitors to identify gaps and opportunities. 
+
+Then, I gather data on customer needs through surveys, user testing, and feedback from customer support teams. Based on this information, I develop a prioritization framework that considers factors such as customer impact, business value, technical feasibility, and resource availability. I regularly reassess and adjust the prioritization as new information becomes available.
+
+29. How do you balance short-term and long-term goals in your product strategy?
+Balancing short-term and long-term goals is essential for the success of a product. As a product manager, I always keep the company's overall goals in mind and align my product strategy accordingly. In the short term, I focus on delivering features that address immediate customer needs and drive revenue growth. In the long term, I focus on building a product that can sustain growth and adapt to changing market conditions. 
+
+I prioritize investments in research and development to identify and capitalize on new opportunities while continuing to iterate on existing products to ensure they remain relevant and effective.
+
+30. As a Product Manager, what aspects of technology most excite you?
+Being a Product Manager allows me to create products from scratch and have a significant positive impact on a lot of people, which is the most fascinating aspect. I am passionate about technology, innovation, rethinking the user experience, and resolving a client issue, along with a strong desire to seize a market and carry out a successful plan. 
+
+
+

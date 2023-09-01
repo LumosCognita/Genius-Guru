@@ -1,0 +1,488 @@
+{
+    "questions": [
+        {
+            "question": "What do you understand by the term, Product Management?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "The responsibility of managing a specific product inside a company"
+                },
+                {
+                    "id": 2,
+                    "label": "The art of marketing a product"
+                },
+                {
+                    "id": 3,
+                    "label": "The process of producing a product"
+                },
+                {
+                    "id": 4,
+                    "label": "The technique of selling a product"
+                }
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Who do you think Product Managers are?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "They lead a product team to develop distinctive and appealing goods"
+                },
+                {
+                    "id": 2,
+                    "label": "They are responsible for selling the product"
+                },
+                {
+                    "id": 3,
+                    "label": "They create product strategies and marketing plans"
+                },
+                {
+                    "id": 4,
+                    "label": "They manage the financial aspects of the product"
+                }
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Do you think Product Managers are important in a company?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "Yes"
+                },
+                {
+                    "id": 2,
+                    "label": "No"
+                },
+                {
+                    "id": 3,
+                    "label": "Depends on the type of company"
+                },
+                {
+                    "id": 4,
+                    "label": "Only in technical companies"
+                }
+            ],
+            "answer": 1
+        },
+        {
+            "question": "What are the pillars of Product Management?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "Product Discovery, Product Planning, Product Marketing"
+                },
+                {
+                    "id": 2,
+                    "label": "Product Discovery, Product Planning, Product Development"
+                },
+                {
+                    "id": 3,
+                    "label": "Product Selling, Product Marketing, Product Development"
+                },
+                {
+                    "id": 4,
+                    "label": "Product Design, Product Testing, Product Delivery"
+                }
+            ],
+            "answer": 2
+        },
+        {
+            "question": "What do you think are the criteria for selecting Product Management Tools?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "Features, Price, User Interface"
+                },
+                {
+                    "id": 2,
+                    "label": "Price, Brand, Design"
+                },
+                {
+                    "id": 3,
+                    "label": "User Interface, Brand, Combination"
+                },
+                {
+                    "id": 4,
+                    "label": "Combination, User Interface, Assurance, Features"
+                }
+            ],
+            "answer": 4
+        },
+        {
+            "question": "What do you understand by the term,MoSCow Method?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "It is a favored method of managing staff performance"
+                },
+                {
+                    "id": 2,
+                    "label": "It is a preferred way of making important business decision"
+                },
+                {
+                    "id": 3,
+                    "label": "It is a favored method of managing needs prioritization"
+                },
+                {
+                    "id": 4,
+                    "label": "It is a type of research methodology in project management"
+                }
+            ],
+            "answer": 3
+        },
+        {
+            "question": "What is Product Adoption?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "The process of bringing a new product to market"
+                },
+                {
+                    "id": 2,
+                    "label": "The process of designing a new product"
+                },
+                {
+                    "id": 3,
+                    "label": "The process of making people aware about the product"
+                },
+                {
+                    "id": 4,
+                    "label": "The process of converting website visitors into customers"
+                }
+            ],
+            "answer": 4
+        },
+        {
+            "question": "How can you increase the adoption of a product?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "By conducting product analytics"
+                },
+                {
+                    "id": 2,
+                    "label": "By reducing the price"
+                },
+                {
+                    "id": 3,
+                    "label": "By launching marketing campaigns"
+                },
+                {
+                    "id": 4,
+                    "label": "By improving the quality"
+                }
+            ],
+            "answer": 1
+        },
+        {
+            "question": "What is Product Lifecycle Management or PLM?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "It's a tool for managing a product's lifecycle, from creation to disposal"
+                },
+                {
+                    "id": 2,
+                    "label": "It is a business strategy for managing the entire lifecycle of a product"
+                },
+                {
+                    "id": 3,
+                    "label": "It is a framework for integrating people, data and processes across the enterprise"
+                },
+                {
+                    "id": 4,
+                    "label": "All of the above"
+                }
+            ],
+            "answer": 4
+        },
+        {
+            "question": "How do you measure the success of a product?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "By sales volume"
+                },
+                {
+                    "id": 2,
+                    "label": "By customer reviews"
+                },
+                {
+                    "id": 3,
+                    "label": "By its market share"
+                },
+                {
+                    "id": 4,
+                    "label": "All of these"
+                }
+            ],
+            "answer": 4
+        },
+        {
+            "question": "How do you approach your customers?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "By using one-on-one or group interviews"
+                },
+                {
+                    "id": 2,
+                    "label": "By conducting surveys"
+                },
+                {
+                    "id": 3,
+                    "label": "By sending promotional emails"
+                },
+                {
+                    "id": 4,
+                    "label": "All of these"
+                }
+            ],
+            "answer": 1
+        },
+        {
+            "question": "How do you prioritize features in your product roadmap?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "Based on the customer needs"
+                },
+                {
+                    "id": 2,
+                    "label": "Based on the development cost"
+                },
+                {
+                    "id": 3,
+                    "label": "Based on the complexity of the implementation"
+                },
+                {
+                    "id": 4,
+                    "label": "All of these"
+                }
+            ],
+            "answer": 1
+        },
+        {
+            "question": "How do you balance short-term and long-term goals in your product strategy?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "By focusing on immediate customer needs in the short term and building a product for long term"
+                },
+                {
+                    "id": 2,
+                    "label": "By focusing on long-term profitability only"
+                },
+                {
+                    "id": 3,
+                    "label": "By focusing on immediate returns only"
+                },
+                {
+                    "id": 4,
+                    "label": "By prioritizing investments in research and development for long term and iterating existing products for the short term"
+                }
+            ],
+            "answer": 1
+        },
+        {
+            "question": "What do you think your responsibilities as a Product Manager would be?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "Identifying user requirements and developing a product vision"
+                },
+                {
+                    "id": 2,
+                    "label": "Managing the product development team"
+                },
+                {
+                    "id": 3,
+                    "label": "Marketing and selling the product"
+                },
+                {
+                    "id": 4,
+                    "label": "All of these"
+                }
+            ],
+            "answer": 1
+        },
+        {
+            "question": "What is the biggest obstacle that our organization might encounter next year?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "Reduced sales due to market saturation"
+                },
+                {
+                    "id": 2,
+                    "label": "Increase in competition"
+                },
+                {
+                    "id": 3,
+                    "label": "Lack of skilled workers"
+                },
+                {
+                    "id": 4,
+                    "label": "All of these"
+                }
+            ],
+            "answer": 4
+        },
+        {
+            "question": "Why do you want this job?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "Because it pays well"
+                },
+                {
+                    "id": 2,
+                    "label": "Because of the company culture"
+                },
+                {
+                    "id": 3,
+                    "label": "Because the job role is in line with your skills and interests"
+                },
+                {
+                    "id": 4,
+                    "label": "Because you have always wanted to work for this company"
+                }
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Why did Facebook acquire Instagram?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "Because Instagram was a competitor"
+                },
+                {
+                    "id": 2,
+                    "label": "Because Instagram had a large user base that Facebook wanted to tap into"
+                },
+                {
+                    "id": 3,
+                    "label": "Because Facebook wanted to diversify its business and protect a weak spot"
+                },
+                {
+                    "id": 4,
+                    "label": "All of these"
+                }
+            ],
+            "answer": 3
+        },
+        {
+            "question": "What aspects of technology most excite you as a Product Manager?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "The ability to create products from scratch that can impact many people"
+                },
+                {
+                    "id": 2,
+                    "label": "The ability to use new technologies to improve efficiency"
+                },
+                {
+                    "id": 3,
+                    "label": "The power of data and analytics in decision making"
+                },
+                {
+                    "id": 4,
+                    "label": "All of these"
+                }
+            ],
+            "answer": 1
+        },
+        {
+            "question": "How do you go about reducing the amount of friendly fraud on our eCommerce site?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "By using a credit card for verification"
+                },
+                {
+                    "id": 2,
+                    "label": "By maintaining PCI compliance"
+                },
+                {
+                    "id": 3,
+                    "label": "By using fraud prevention tools"
+                },
+                {
+                    "id": 4,
+                    "label": "All of these"
+                }
+            ],
+            "answer": 4
+        },
+        {
+            "question": "What do you mean by the term “PCI Compliance?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "It's a financial term related to credit rating"
+                },
+                {
+                    "id": 2,
+                    "label": "It's the guidelines that companies adhere to protect credit card information during transactions"
+                },
+                {
+                    "id": 3,
+                    "label": "It's a term related to product development"
+                },
+                {
+                    "id": 4,
+                    "label": "None of these"
+                }
+            ],
+            "answer": 2
+        },
+        {
+            "question": "What steps should you take to redesign a product?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "Presenting a thesis for revision"
+                },
+                {
+                    "id": 2,
+                    "label": "Redesign data analysis"
+                },
+                {
+                    "id": 3,
+                    "label": "Initiation"
+                },
+                {
+                    "id": 4,
+                    "label": "All of these"
+                }
+            ],
+            "answer": 4
+        },
+        {
+            "question": "How will you explain a product development strategy to your team?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "Explain about the targeted market and customer needs"
+                },
+                {
+                    "id": 2,
+                    "label": "Talk about the product's intended income and business goals"
+                },
+                {
+                    "id": 3,
+                    "label": "Discuss budget management"
+                },
+                {
+                    "id": 4,
+                    "label": "All of these"
+                }
+            ],
+            "answer": 4
+        }
+    ]
+}
