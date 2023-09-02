@@ -8,10 +8,22 @@ from schemas.fastapi_schemas import User, Quiz, CareerPathRequest
 from database.mongodb import MongoDB
 from endpoint_modules.generate_quiz import generate_quiz_from
 from endpoint_modules.generate_career_path import generate_career_path
+from fastapi.middleware.cors import CORSMiddleware
 import json
 
 
 app = FastAPI(title="genius_guru_backend")
+
+origins = [ "*" ] #TODO: update this to limit requests for sepecific origins
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 client = MongoDB()
 
 @app.post("/generate_career_path")
