@@ -41,7 +41,3 @@ class Question(BaseModel):
 
 class Quiz(BaseModel):
     questions: List[Question]
-
-class CareerPathRequest(BaseModel):
-    username: str
-    submitted_quiz: Quiz

@@ -4,7 +4,7 @@ Module for FastAPI creation
 from loguru import logger
 import uvicorn
 from fastapi import FastAPI
-from schemas.fastapi_schemas import User, Quiz, CareerPathRequest
+from schemas.fastapi_schemas import User, Quiz
 from database.mongodb import MongoDB
 from endpoint_modules.generate_quiz import generate_quiz_from
 from endpoint_modules.generate_career_path import generate_career_path
