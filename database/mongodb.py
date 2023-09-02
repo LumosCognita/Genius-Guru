@@ -1,7 +1,8 @@
-from configs.settings import config
+from configurations.settings import config
 from pymongo import MongoClient
 from schemas.fastapi_schemas import User
 from loguru import logger
+
 class MongoDB:
     def __init__(self):
         client = MongoClient(

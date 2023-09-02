@@ -1,4 +1,4 @@
-from configs.settings import config
+from configurations.settings import config
 import openai
 import json
 
