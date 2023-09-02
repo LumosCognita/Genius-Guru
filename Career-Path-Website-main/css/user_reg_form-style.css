@@ -1,0 +1,249 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Almarai', sans-serif;
+    color: var(--white-color);
+}
+
+:root {
+    --dark-mode-bg: #1E1E1E;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --green-color: #61F4DE;
+    --purple-color: #6E78FF;
+    --transition-time: 0.3s ease;
+}
+
+/* Rules */
+
+
+/* Rules end here */
+
+
+.container {
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* Small Screens */
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* Medium Screens */
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large Screens */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+body {
+    background: var(--dark-mode-bg);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+header {
+    background: #141414;
+}
+
+header .container {
+    padding: 20px;
+}
+
+header .container #logo {
+    width: 100px;
+}
+
+header .container .userInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container .userInfo .userSalute {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header .container .userInfo .userSalute .username {
+    margin-right: 5px;
+}
+
+header .container .logoutBTN {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: 0;
+    transition: var(--transition-time);
+    cursor: pointer;
+}
+
+header .container .logoutBTN:hover {
+    color: var(--green-color);
+}
+
+header .container .logoutBTN i {
+    margin-right: 5px;
+    color: inherit;
+}
+
+/* Main starts here */
+
+main {
+    position: relative;
+    overflow: hidden;
+}
+
+main::before {
+    content: '';
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    background: var(--green-color);
+    border-radius: 50%;
+    filter: blur(500px);
+    left: 0;
+    bottom: -800px;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+main::after {
+    content: '';
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    background: var(--purple-color);
+    border-radius: 50%;
+    filter: blur(500px);
+    right: 0;
+    bottom: -800px;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+main .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 98.6667px);
+}
+
+main .container form {
+    color: var(--black-color);
+    position: relative;
+}
+
+main .container form::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--green-color);
+    transform: rotate(1deg);
+    border-radius: 10px;
+    top: 0;
+    right: 2px;
+    z-index: -1;
+}
+
+main .container form::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--purple-color);
+    transform: rotate(-1deg);
+    border-radius: 10px;
+    top: 0;
+    left: 2px;
+    z-index: -1;
+}
+
+main .container form {
+    background: #141414;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+main .container form label:not(form label[for="gender"]) {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+main .container form input:not(main input[type="radio"]) {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    transition: var(--transition-time);
+}
+
+main .container form input,
+main .container form input::placeholder {
+    color: #141414;
+}
+
+main .container form input:focus {
+    outline: 2px solid var(--purple-color);
+}
+
+main .container form .gender {
+    display: flex;
+    margin: 20px 0;
+}
+
+main .container form .gender span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container form .gender input {
+    margin-left: 10px;
+}
+
+main .container form .gender .maleSection {
+    margin-left: 20px;
+}
+
+main .container form select {
+    background: transparent;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin: 10px 0 20px 0;
+}
+
+main .container form select * {
+    background: #141414;
+}
+
+main .container form input[type="submit"] {
+    background: linear-gradient(90deg, var(--green-color), var(--purple-color));
+    color: var(--white-color);
+    font-weight: 700;
+    margin-bottom: 0 !important;
+    margin-top: 20px;
+    cursor: pointer;
+}

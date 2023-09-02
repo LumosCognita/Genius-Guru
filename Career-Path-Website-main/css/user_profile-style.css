@@ -1,0 +1,361 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Almarai', sans-serif;
+    color: var(--white-color);
+}
+
+:root {
+    --dark-mode-bg: #1E1E1E;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --green-color: #61F4DE;
+    --purple-color: #6E78FF;
+    --transition-time: 0.3s ease;
+}
+
+/* Rules */
+
+
+/* Rules end here */
+
+
+.container {
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* Small Screens */
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* Medium Screens */
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large Screens */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+body {
+    background: var(--dark-mode-bg);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+header {
+    background: #141414;
+}
+
+header .container .userInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .userInfo .userSalute {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header .container .userInfo .userSalute .username {
+    margin-right: 5px;
+}
+
+header .container .logoutBTN {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: 0;
+    transition: var(--transition-time);
+    cursor: pointer;
+}
+
+header .container .logoutBTN:hover {
+    color: var(--green-color);
+}
+
+header .container .logoutBTN i {
+    margin-right: 5px;
+    color: inherit;
+}
+
+/* Main starts here */
+
+main .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* height: calc(100vh - 50.4px); */
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+main .container .profileHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background: #141414;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+main .container .profileHeading * {
+    z-index: 1;
+}
+
+main .container .profileHeading::before {
+    content: '';
+    position: absolute;
+    width: 600px;
+    height: 220px;
+    background: linear-gradient(90deg, var(--green-color), var(--purple-color));
+    left: -280px;
+    transform: rotate(-50deg);
+    z-index: 0;
+}
+
+
+main .container h1 {
+    font-weight: 800;
+}
+
+main .container .userData {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+main .container .userPic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background: #141414;
+    border-radius: 10px;
+    border: 2px solid var(--purple-color);
+}
+
+main .container .userPic i {
+    font-size: 80px;
+    color: #2c2c2c;
+}
+
+main .container .userBio {
+    margin-right: 20px;
+}
+
+main .container .userBio .userFullName {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+main .container .profileHeading .editProfileBTN,
+main .container .profileHeading .editProfileBTN-mobile {
+    padding: 10px 20px;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid var(--white-color);
+    border-radius: 5px;
+    transition: var(--transition-time);
+    cursor: pointer;
+}
+
+main .container .profileHeading .editProfileBTN:hover {
+    background: var(--white-color);
+    color: var(--purple-color);
+}
+
+main .container .profileHeading .editProfileBTN-mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    main .container .profileHeading::before {
+        left: -420px;
+    }
+
+    main .container .userPic i {
+        font-size: 40px;
+    }
+
+    main .container .userBio .userFullName {
+        font-size: 18px;
+    }
+
+    main .container .userBio strong,
+    main .container .userBio .study,
+    main .container .userBio .position {
+        font-size: 12px;
+    }
+
+    main .container .profileHeading .editProfileBTN {
+        display: none;
+    }
+
+    main .container .profileHeading .editProfileBTN-mobile {
+        display: block;
+        border: 0;
+        padding: 0;
+        font-weight: 700;
+        text-decoration: underline;
+        font-size: 12px;
+        margin-top: 30px;
+    }
+}
+
+/* Timline starts here */
+
+main .container .timeline {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 15px;
+    height: 700px;
+    margin: 200px auto 100px auto;
+    background: var(--purple-color);
+    border-radius: 40px;
+}
+
+main .container .timeline .course {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    background: var(--green-color);
+    border-radius: 50%;
+    transition: var(--transition-time);
+}
+
+main .container .timeline .course::before {
+    content: attr(data-index);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+    color: var(--black-color);
+    font-size: 12px;
+    text-align: center;
+}
+
+main .container .timeline .course::after {
+    content: '';
+    position: absolute;
+
+}
+
+main .container .course .courseDescription {
+    display: block;
+    background: var(--purple-color);
+    padding: 20px;
+    border-radius: 5px;
+    width: 500px;
+    position: absolute;
+    line-height: 26px;
+    top: -110px;
+}
+
+@media (max-width: 1200px) {
+    main .container .mobile-timeline .course .courseDescription {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1024px) {
+    main .container .mobile-timeline .course .courseDescription {
+        width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    main .container .mobile-timeline .course .courseDescription {
+        width: 300px;
+        transform: scale(0.6);
+        margin-top: 80px;
+        left: 0 !important;
+        right: -135px !important;
+    }
+}
+
+main .container .course .courseDescription .courseName {
+    margin-bottom: 0;
+}
+
+main .container .course .courseDescription .price {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 700;
+    background: #2c3aff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+main .container .course .courseDescription div:not(main .container .course .courseDescription div:last-child) {
+    margin-bottom: 10px;
+}
+
+main .container .course .courseDescription div span {
+    direction: ltr;
+}
+
+main .container .course .courseDescription strong i {
+    margin-left: 5px;
+}
+
+main .container .course .courseDescription .courseLink a {
+    color: var(--green-color);
+}
+
+/* main .container .course .courseDescription::before {
+    content: '';
+    position: absolute;
+    background: var(--purple-color);
+    width: 20px;
+    height: 20px;
+    top: -20px;
+    right: 0;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+} */
+
+.recommendationText {
+    margin-top: 250px;
+    background: #141414;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+
+.recommendationText h1 {
+    margin-top: 0;
+}
+
+.recommendationText p {
+    line-height: 30px;
+    margin-top: 40px;
+    direction: ltr;
+}

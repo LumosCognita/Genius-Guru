@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Path - Course Info</title>
+    <link rel="stylesheet" href="css/user_reg_form-style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- <link rel="shortcut icon" href="assets/Icons/edufavicon.svg" type="image/x-icon"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="userInfo">
+                    <img src="assets/Genius Guru Logo - White.svg" alt="Genius Guru Logo" id="logo">
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <form action="" class="regForm">
+                <input type="text" name="name" id="fullName" placeholder="الاسم الكامل" required>
+                <br>
+                <input type="email" name="email" id="userEmail" placeholder="البريد الإلكتروني" required>
+                <br>
+                <label for="birthDate">تاريخ الميلاد</label>
+                <input type="date" name="date_of_birth" id="birthDate" required>
+
+                <label for="gender">الجنس</label>
+                <div class="gender">
+                    <span class="maleSection">
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">ذكر</label>
+                    </span>
+
+                    <span class="femaleSection">
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">أنثى</label>
+                    </span>
+                </div>
+
+                <input type="text" name="location" id="location" placeholder="المدينة" required>
+                <br>
+                <input type="text" name="major" id="major" placeholder="التخصص" required>
+                <br>
+                <select name="target_field" id="targetField" required>
+                    <option value="---">اختر المسار الذي ترغب فيه</option>
+                    <option value="SE">Software Engineer (SE)</option>
+                    <option value="ML">Machine Learning Engineer (ML)</option>
+                    <option value="PM">Product Manager (PM)</option>
+                </select>
+                <br>
+                <label for="gradDate">تاريخ التخرج / المتوقع (اختياري)</label>
+                <input type="date" name="graduation_date" id="gradDate">
+                <br>
+                <input type="text" name="years_of_experience" id="yearsOfXP" placeholder="عدد سنوات الخبرة (اختياري)">
+                <br>
+                <input type="submit" value="التسجيل">
+            </form>
+        </div>
+    </main>
+
+
+
+    <script src="user_reg_form-script.js"></script>
+</body>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Path - Quiz</title>
+    <link rel="stylesheet" href="css/quiz-style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- <link rel="shortcut icon" href="assets/Icons/edufavicon.svg" type="image/x-icon"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<script type="text/javascript" src="./quiz-script.js"></script>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="userInfo">
+                    <div class="userSalute">
+                        <p>مرحبًا، </p>
+                        <strong class="username">آدم علي محمد عصام</strong>
+                    </div>
+
+                    <button type="button" class="logoutBTN">تسجيل الخروج <i class="fa-solid fa-right-from-bracket"></i></button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="questionsArena">
+                <span class="questionNumber">01</span>
+                <div class="question">
+                    <p class="questionText typewriter"></p>
+                    <ul class="answersList">
+                        <li class="typewriter"></li>
+                        <li class="typewriter"></li>
+                        <li class="typewriter"></li>
+                        <li class="typewriter"></li>
+                    </ul>
+                </div>
+
+                <form action="">
+                    <input type="text" name="answerBox" id="answerBox" placeholder="أدخل رمز الإجابة الصحيحة">
+                    <select name="answer" id="answerOptions" required>
+                        <option value="---">اختر الإجابة الصحيحة</option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                    </select>
+                </form>
+
+                <button type="button" class="nextBTN">التالي</button>
+            </div>
+        </div>
+    </main>
+
+
+
+    <script src="quiz-script.js"></script>
+</body>
