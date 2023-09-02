@@ -4,21 +4,26 @@ Module for FastAPI creation
 from loguru import logger
 import uvicorn
 from fastapi import FastAPI
-from schemas.fastapi_schemas import User, Quiz, Question
+from schemas.fastapi_schemas import User, Quiz, CareerPathRequest
 from database.mongodb import MongoDB
 from endpoint_modules.generate_quiz import generate_quiz_from
 from endpoint_modules.generate_career_path import generate_career_path
+import json
 
 
 app = FastAPI(title="genius_guru_backend")
 client = MongoDB()
 
 @app.post("/generate_career_path")
-async def generate_career_path(quiz: Quiz):
+async def generate_career_path_api(submitted_quiz: Quiz):
     """
     Post end-point for submitting the quiz
     """
-    return quiz
+
+    with open("offline_database/courses/Courses.json", "r") as json_file:
+        courses = json.load(json_file)
+
+    return generate_career_path(submitted_quiz, courses)
 
 
 @app.post("/sign_up")

@@ -32,10 +32,16 @@ class User(BaseModel):
 class Answer(BaseModel):
     id:  int
     label: str
+
 class Question(BaseModel):
     question: str
     options: List[Answer]
     answer: int
+    user_answer: Optional[int] = None
 
 class Quiz(BaseModel):
     questions: List[Question]
+
+class CareerPathRequest(BaseModel):
+    username: str
+    submitted_quiz: Quiz
