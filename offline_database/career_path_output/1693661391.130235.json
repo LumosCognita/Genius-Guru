@@ -1,0 +1,58 @@
+{
+    "GPT-4_Suggestions": [
+        {
+            "response-intro": "You seem to have a good understanding of Machine Learning and Semi-Supervised Learning. Here are some courses that might interest you:",
+            "courses": [
+                {
+                    "name": "Machine Learning",
+                    "link": "https://www.pioneersacademy.com/ar/Training-Course/Programming-language-using-python/2761/16",
+                    "provider": "Pioneers",
+                    "duration": "40 hours",
+                    "price": "450 JD"
+                },
+                {
+                    "name": "Deep Learning",
+                    "link": "https://www.pioneersacademy.com/ar/Training-Course/Programming-language-using-python/2761/16",
+                    "provider": "Pioneers",
+                    "duration": "20 hours",
+                    "price": "200 JD"
+                },
+                {
+                    "name": "Python for Data Science",
+                    "link": "https://www.facebook.com/ArabsAICommunity/posts/pfbid027xCM1YaZ3gu3fnQR4kbWSwzVgiby8hi9gQKy7js1mWasebEXFdcAbe4fzq56Pzz1l",
+                    "provider": "SHAI for AI",
+                    "duration": "36 hours",
+                    "price": "75 JD"
+                }
+            ],
+            "additional_info": "These courses will continue to expand on your understanding of machine learning and introduce new concepts and techniques"
+        },
+        {
+            "response-intro": "Considering your knowledge in data labels and machine learning, these courses could bring a lot of value to your learning path:",
+            "courses": [
+                {
+                    "name": "Machine Learning",
+                    "link": "https://www.facebook.com/ArabsAICommunity/posts/pfbid02puQb4bx1zsnNNfCdvVXMZTrwp9ZXKXp2h7DrcXiAEjP3Rjhakgeoi3Mk95nshWtCl",
+                    "provider": "SHAI for AI",
+                    "duration": "30 hours",
+                    "price": "120 JD"
+                },
+                {
+                    "name": "Deep Learning",
+                    "link": "https://www.facebook.com/ArabsAICommunity/posts/pfbid0tFuqJn2nrWXJpyX7USqyhFdWAAj8PCC9qRitS6ep7z1Fs8ryT8ZKDQ1oGoZaH9uel",
+                    "provider": "SHAI for AI",
+                    "duration": "30 hours",
+                    "price": "150 JD"
+                },
+                {
+                    "name": "Python",
+                    "link": "https://www.pioneersacademy.com/ar/Training-Course/Programming-language-using-python/2761/16",
+                    "provider": "Pioneers",
+                    "duration": "30 hours",
+                    "price": "150 JD"
+                }
+            ],
+            "additional_info": "These courses will deepen your understanding of machine learning from a programming perspective and the application and theory of deep learning."
+        }
+    ]
+}
