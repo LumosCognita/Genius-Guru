@@ -32,6 +32,8 @@ async def generate_career_path_api(submitted_quiz: Quiz):
     Post end-point for submitting the quiz
     """
 
+    print('submitted_quiz', submitted_quiz)
+
     with open("offline_database/courses/Courses.json", "r") as json_file:
         courses = json.load(json_file)
 

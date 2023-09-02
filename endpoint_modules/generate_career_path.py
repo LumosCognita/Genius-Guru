@@ -10,27 +10,23 @@ def read_json_file(file_path):
         data = json.load(f)
     return data
 
-def generate_prompt(quiz_summary_path, courses_path):
-    quiz_summary_data = read_json_file(quiz_summary_path)
-    quiz_summary = quiz_summary_data.get("questions", [])
-    courses = read_json_file(courses_path).get('courses', [])
-    
+def generate_prompt(quiz_summary, courses_data):
     prompt = "Career advice based on quiz and courses:\n"
 
-    for entry in quiz_summary:
-        prompt += f'Question: {entry["question"]}\n'
+    for question in quiz_summary:
+        prompt += f'Question: {question.question}\n'
         
-        user_answer_id = entry["user_answer"]
-        user_answer_label = [opt["label"] for opt in entry["options"] if opt["id"] == user_answer_id][0]
+        user_answer_id = question.user_answer
+        user_answer_label = [opt.label for opt in question.options if opt.id == user_answer_id][0]
         
-        correct_answer_id = entry["answer"]
-        correct_answer_label = [opt["label"] for opt in entry["options"] if opt["id"] == correct_answer_id][0]
+        correct_answer_id = question.answer
+        correct_answer_label = [opt.label for opt in question.options if opt.id == correct_answer_id][0]
         prompt += f'User Answer: {user_answer_label}\n'
         prompt += f'Correct Answer: {correct_answer_label}\n'
 
     prompt += '\nAvailable careers and courses:\n'
     
-    for course in courses:
+    for course in courses_data:
         prompt += f"Course Name: {course['course_name']}\n"
         prompt += f"Provider: {course['course_provider']}\n"
         prompt += f"URL: {course['course_url']}\n"
@@ -43,13 +39,13 @@ def generate_prompt(quiz_summary_path, courses_path):
 
 
 def generate_career_path(quiz_summary, courses_data):
-    prompt = generate_prompt(quiz_summary, courses_data)
+    prompt = generate_prompt(quiz_summary.questions, courses_data["courses"])
 
     response = openai.ChatCompletion.create(
         model="gpt-4",
         messages=[
             {"role": "system", 
-             "content": "You're a career expert that can generate from a given quiz answers and the courses we have, recommend top 3 courses based on the quiz answers,respond with a JSON object. The format should include GPT-4_Suggestions array , each with response-intro, courses and additional_info, each course has name ,link ,Provider ,Duration and Price"},
+             "content": "You're a career expert that can generate from a given quiz answers and the courses we have, recommend top 3 courses based on the quiz answers,respond with a JSON object. The format should include Path array , each with response-intro, courses and additional_info, each course has name ,link ,Provider ,Duration and Price"},
             {"role": "user", 
              "content": prompt}
         ]
