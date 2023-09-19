@@ -21,7 +21,7 @@ Dataset Generation (Genius-Guru/generate_dataset.py):
 Uses OpenAI to generate multiple-choice questions for assessment based on given article content.
 Main Application (Genius-Guru/main.py):
 
-The core FastAPI application that defines the API endpoints for the project.
+The core FastAPI application defines the API endpoints for the project.
 .gitignore
 The project's .gitignore file ensures that sensitive and unnecessary files are not tracked by Git. It includes patterns for Python byte-compiled files, distribution files, logs, environment files, and more.
 
