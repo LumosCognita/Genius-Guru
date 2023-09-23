@@ -28,7 +28,7 @@ The project's .gitignore file ensures that sensitive and unnecessary files are n
 CSS
 The project uses Font Awesome Free 6.1.1 for icons and styling.
 
-Getting Started
+Getting Started.
 Clone the repository.
 Set up your MongoDB and OpenAI configurations.
 Install the required dependencies.
