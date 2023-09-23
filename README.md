@@ -59,10 +59,3 @@ Genius-Guru incorporates Font Awesome Free 6.1.1 for icons and stylings.
 ## Contribution
 Feel free to contribute to Genius-Guru. Create a pull request, and our team will review it promptly.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Contact
-For any queries or further information, please contact: [Contact Information].
-
-Remember to replace the placeholders like `<repository-url>` and `[Contact Information]` with actual values.
